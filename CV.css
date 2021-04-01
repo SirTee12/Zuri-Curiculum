@@ -1,0 +1,163 @@
+*{
+    box-sizing:border-box;
+}
+body {
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.header {
+    background-color:rgb(35, 160, 120);
+    height:50px;
+}
+h2  {
+    padding:0 8px;
+    color:rgb(35, 160, 120);
+}
+.descr {
+    padding:0 8px;
+    font-size:0.9rem;
+    color:grey;
+}
+
+
+.social {
+    background-color:rgba(225, 235, 232, 0.2);
+    margin-top:30px;
+}
+.email {
+    padding:8px 12px;
+}
+
+.twitter {
+    margin:20px 3px;
+    padding:8px 8px;
+}
+.Github {
+    margin:20px 3px;
+    padding:8px 8px;
+}
+.LinkedIn {
+    margin:20px 3px;
+    padding:8px 8px;
+}
+.phone {
+    margin:20px 3px; 
+    padding:8px 8px;
+}
+a {
+    padding-left:25px;
+    text-transform:none;
+    color:rgb(35, 160, 120);
+}
+img{
+    color:rgb(198, 216, 211);  
+}
+
+@media screen and (max-width:500px) {
+    a {
+        font-size:0.9rem;
+    }
+    h2{
+        font-size:1rem;
+    }
+    .profile {
+        width:70px;
+        height:70px;
+    }
+}
+
+
+.perinfo {
+    margin:0 10px;
+}
+.perinfo p {
+    color:rgb(75, 71, 71);
+}
+h3{
+    color:rgb(35, 160, 120);
+    margin-top:50px;
+}
+.education {
+    margin:0 10px;
+}
+.education p {
+    color:rgb(75, 71, 71);
+}
+.Workexp{
+    margin:0 10px;   
+}
+.Workexp p {
+    color:rgb(75, 71, 71);
+    margin-top:5px;
+}
+.skills{
+    margin:0 10px;   
+}
+.skills p {
+    color:rgb(75, 71, 71);
+    margin-top:5px;
+}
+.interest{
+    margin:0 10px;   
+}
+.web {
+    color:rgb(35, 160, 120);
+    width:20%;
+    background-color:rgba(225, 235, 232, 0.5);  
+    padding:10px 16px;
+    border:1px solid rgba(225, 235, 232, 0.5); 
+    border-radius:10px;
+}
+.Art {
+    color:rgb(35, 160, 120);
+    width:20%;
+    background-color:rgba(225, 235, 232, 0.5);  
+    padding:10px 16px;
+    border:1px solid rgba(225, 235, 232, 0.5); 
+    border-radius:10px;
+    margin-top: 25px;
+}
+.data {
+    color:rgb(35, 160, 120);
+    width:20%;
+    background-color:rgba(225, 235, 232, 0.5);  
+    padding:10px 16px;
+    margin-top: 25px;
+    border:1px solid rgba(225, 235, 232, 0.5); 
+    border-radius:10px;
+}
+.elec {
+    color:rgb(35, 160, 120);
+    width:20%;
+    background-color:rgba(225, 235, 232, 0.5);  
+    padding:10px 16px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border:1px solid rgba(225, 235, 232, 0.5); 
+    border-radius:10px;
+}
+
+.footer {
+    background-color:rgb(35, 160, 120);
+    height:50px;   
+}
+
+@media screen and (max-width:600px) {
+    .web {
+        width:30%;
+        font-size:0.8rem;
+    }
+    .Art {
+        width:30%;
+        font-size:0.8rem;
+    }
+    .data {
+        width:30%;
+        font-size:0.8rem;
+    }
+    .elec {
+        width:30%;
+        font-size:0.8rem;
+    }
+}
